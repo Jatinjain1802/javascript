@@ -57,3 +57,4 @@ let price = discount(b);
 alert(
   `You have applide ${a}% of dicount on ${b} amount and your final discount was ${price}`,
 );
+ 
