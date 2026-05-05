@@ -1,4 +1,4 @@
-### Question 1
+ ### Question 1
 
 Write a javaScript function to capitalize the first character of the string. For example:
 
