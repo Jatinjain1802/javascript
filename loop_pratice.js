@@ -38,7 +38,7 @@ function table() {
     console.log(`${a}*${i}=${a * i}`);
   }
 }
-table();
+// table();
 
 /* Q7 Ask user a question "How many times do you want to print Hello World?" and then print Hello World that number of times. */
 
@@ -58,7 +58,7 @@ function sum() {
   }
   console.log(sum);
 }
-sum();
+// sum();
 
 /* Q9 Calculate sum of all odd numbers from 1 to 100. */
 function oddsum() {
@@ -70,7 +70,7 @@ function oddsum() {
   }
   console.log("Odd sum is", sum);
 }
-oddsum();
+// oddsum();
 
 /* Q10 Calculate sum of all even numbers from 1 to 100. */
 function evensum() {
@@ -82,7 +82,7 @@ function evensum() {
   }
   console.log("Even sum is", sum);
 }
-evensum();
+// evensum();
 
 /*Q11 Print 1,2,4,8,16,32,64.......upto 2048. */
 
@@ -91,7 +91,7 @@ function print(a = 1) {
     console.log(i);
   }
 }
-print();
+// print();
 
 /* Q13 
 Print 1 to 100, but with a specific condition. If a number is divisible by both 3 and 5, it logs "fizzbuzz" to the console instead of the number itself. */
@@ -119,7 +119,7 @@ function twotable() {
     console.log(`${a}*${i}=${a * i}`);
   }
 }
-twotable();
+// twotable();
 
 /* Q15 Run a loop from 1 to 50
 ```
@@ -151,6 +151,81 @@ function fiveprint(a = 1) {
     console.log(i);
   }
 }
-fiveprint();
+// fiveprint();
 
+/* Q18 Print below series:
+3,6,9,12... till number is less than equal to 500
+ */
 
+function threetbale() {
+  for (let i = 1; i <= 500; i++) {
+    let mul = i * 3;
+    if (mul > 500) {
+      break;
+    }
+    console.log(mul);
+  }
+}
+// threetbale();
+
+/* Q 19 Print below series:
+120
+221
+322
+423
+524
+625
+726
+827
+928
+1029
+``` */
+
+function track() {
+  console.log("Q19 beign form here");
+  for (let i = 120; i <= 1029; i = i + 101) {
+    if (i > 1029) break;
+    console.log(i);
+  }
+}
+// track();
+
+/* Q20 ### Question 20
+
+Print below series:
+
+100 95 90 85 80 ... till 0
+ */
+
+function backward() {
+  console.log("Q20 beign form here");
+  for (let i = 100; i >= 0; i = i - 5) {
+    console.log(i);
+  }
+}
+// backward();
+
+/* ### Question 21
+ Number 70 is divisible by which numbers till 70? Find out and print those numbers. */
+
+function divisiblitycheck() {
+  console.log("Q21 beign form here");
+  for (let i = 1; i < 71; i++) {
+    if (70 % i == 0) {
+      console.log(i);
+    }
+  }
+}
+
+// divisiblitycheck();
+
+/* PATTERN QUESTIOSN */
+/* Q33  Print pattern
+
+1
+11
+111
+1111
+11111
+
+``` */
